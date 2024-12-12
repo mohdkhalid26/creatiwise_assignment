@@ -1,0 +1,77 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background_container {
+  height: auto;
+  width: 100%; /* Allow it to adapt to screen size */
+
+  .bg_image {
+    background-image: url("images/bg_two.png");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 1024px) {
+  .background_container {
+    height: 500px; /* Reduce height for tablets */
+  }
+  .bg_image {
+    background-size: 80%; /* Smaller background size */
+  }
+}
+
+@media (max-width: 768px) {
+  .background_container {
+    height: 400px; /* Reduce height for mobile */
+  }
+  .bg_image {
+    background-size: 70%; /* Further reduce background size */
+  }
+}
+
+@media (max-width: 480px) {
+  .background_container {
+    height: 300px; /* Compact for small screens */
+  }
+  .bg_image {
+    background-size: 60%; /* Make it smaller for tiny screens */
+  }
+}
+
+
+  .custom_shadow {
+    box-shadow: 0px 4px 30px 0px #0000001a;
+  }
+
+  .custom_shadow_two {
+    box-shadow: -10px 10px 30px 0px #8e878733;
+  }
+
+
+.custom_shadow_three {
+  box-shadow: -30px 30px 30px 0px #2828280d;
+}
+
+.custom_shadow_two {
+  box-shadow: -10px 10px 30px 0px #8e878733;
+}
+
+.custom_shadow_four {
+  box-shadow: -10px 10px 30px 0px #00000026;
+}
+
+
+
+@media (max-width: 764px) {
+   .max-w-764{
+    background-color: yellowgreen;
+    
+  }
+}
